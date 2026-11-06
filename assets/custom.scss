@@ -84,20 +84,6 @@ a {
   text-underline-offset: 0.18em;
 }
 
-// Enlaces de la presentación de Home
-div.quarto-about-jolla .about-link,
-div.quarto-about-trestles .about-link {
-  color: $burgundy;
-  border-color: $burgundy;
-  border-radius: 0.35rem;
-}
-
-div.quarto-about-jolla .about-link:hover,
-div.quarto-about-trestles .about-link:hover {
-  color: $paper;
-  background-color: $burgundy;
-}
-
 // Foco visible al navegar con teclado
 a:focus-visible,
 button:focus-visible {
@@ -185,4 +171,27 @@ button:focus-visible {
   color: $burgundy;
   text-decoration: underline;
   text-underline-offset: 0.15em;
+}
+
+// Botones de perfiles en Home
+div.quarto-about-trestles .about-links a.about-link {
+  color: $burgundy !important;
+  background-color: transparent;
+  border: 1px solid $burgundy;
+  border-radius: 0.35rem;
+  text-decoration: none;
+}
+
+// Ratón y navegación con teclado
+div.quarto-about-trestles .about-links a.about-link:hover,
+div.quarto-about-trestles .about-links a.about-link:focus-visible {
+  color: $paper !important;
+  background-color: $burgundy;
+  border-color: $burgundy;
+}
+
+// Texto e iconos
+div.quarto-about-trestles .about-links a.about-link .about-link-text,
+div.quarto-about-trestles .about-links a.about-link i {
+  color: inherit !important;
 }
