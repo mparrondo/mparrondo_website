@@ -1,8 +1,124 @@
 ---
 title: "Publications"
+page-layout: full
+toc: false
 ---
 
-For my publication record, please visit my
-[ORCID profile](https://orcid.org/0000-0003-0715-4400).
+Peer-reviewed journal articles and book chapters.
 
-<!-- Add a verified publication list here. -->
+::: {.publications-list}
+
+## Journal articles
+
+### 2023
+
+[Pirhadi2023]: https://doi.org/10.1038/s41598-023-29463-6
+
+#### [Genetic monitoring on the world’s first MSC eco-labeled common octopus (*O. vulgaris*) fishery in western Asturias, Spain][Pirhadi2023]
+
+Pirhadi, N., [Parrondo, M.]{.my-name}, Romero-Bascones, A.,
+Thoppil, R., Martínez, J. L., Fernández-Rueda, M. P., Márquez, I.,
+García-Flórez, L., Dopico, E., Pérez, T., & Borrell, Y. J.
+
+*Scientific Reports*, 13, 2730.
+
+### 2022
+
+#### [Chaotic Genetic Patchiness in the Highly Valued Atlantic Stalked Barnacle *Pollicipes pollicipes* From the Iberian Peninsula: Implications for Fisheries Management](https://doi.org/10.3389/fmars.2022.801780)
+
+[Parrondo, M.]{.my-name}, Morán, P., Ballenghien, M., Acuña, J. L.,
+Aguión, A., Arrontes, J., Chiss, J., Cruz, T., Fernandes, J. N.,
+García-Flórez, L., García-Vázquez, E., Geiger, K. J., Macho, G.,
+Thiébaut, E., Weidberg, N., Jollivet, D., & Borrell, Y. J.
+
+*Frontiers in Marine Science*, 9, 801780.
+
+#### [Genetic monitoring of the declining European stony sea urchin *Paracentrotus lividus* from the central Bay of Biscay (Asturias, northwest Spain) and attempts to restore its wild populations](https://doi.org/10.1002/aqc.3766)
+
+[Parrondo, M.]{.my-name}, López, S., de la Uz, S., Rodríguez, C.,
+Carrasco, J. F., García-Flórez, L., & Borrell, Y. J.
+
+*Aquatic Conservation: Marine and Freshwater Ecosystems*, 32(2), 309–328.
+
+#### [Coping with poachers in European stalked barnacle fisheries: Insights from a stakeholder workshop](https://doi.org/10.1016/j.marpol.2021.104826)
+
+Geiger, K. J., Rivera, A., Aguión, A., Álvarez, J., Arrontes, J.,
+Borrell, Y. J., Cruz, T., Davoult, D., Dubert, J., Feis, M. E.,
+Fernandes, J. N., Fernández, C., García-Flórez, L., Jacinto, D.,
+Jollivet, D., Macho, G., Mateo, E., Mateus, D., Morán, P., Muñiz, C.,
+Nicolle, A., Nolasco, R., [Parrondo, M.]{.my-name}, Queiroga, H.,
+Rico, J., Sousa, A., Román, S., Silva, T., Thiébaut, E., Vázquez, E.,
+& Acuña, J. L.
+
+*Marine Policy*, 135, 104826.
+
+### 2021
+
+#### [Sustainable Sea: A board game for engaging students in sustainable fisheries management](https://doi.org/10.1080/1533015X.2021.1930608)
+
+[Parrondo, M.]{.my-name}, Rayón-Viña, F., Borrell, Y. J., & Miralles, L.
+
+*Applied Environmental Education & Communication*, 20(4), 406–421.
+
+#### [Almost never you get what you pay for: Widespread mislabeling of commercial “zamburiñas” in northern Spain](https://doi.org/10.1016/j.foodcont.2020.107541)
+
+[Parrondo, M.]{.my-name}, López, S., Aparicio-Valencia, A., Fueyo, A.,
+Quintanilla-García, P., Arias, A., & Borrell, Y. J.
+
+*Food Control*, 120, 107541.
+
+### 2019
+
+#### [Development and validation of eDNA markers for the detection of *Crepidula fornicata* in environmental samples](https://doi.org/10.1016/j.marpolbul.2019.07.050)
+
+Miralles, L., [Parrondo, M.]{.my-name}, Hernández de Rojas, A.,
+García-Vázquez, E., & Borrell, Y. J.
+
+*Marine Pollution Bulletin*, 146, 827–830.
+
+### 2018
+
+#### [Citizen warnings and post checkout molecular confirmations using eDNA as a combined strategy for updating invasive species distributions](https://doi.org/10.1016/j.jnc.2018.02.006)
+
+[Parrondo, M.]{.my-name}, Clusa, L., Mauvisseau, Q., & Borrell, Y. J.
+
+*Journal for Nature Conservation*, 43, 95–103.
+
+### 2017
+
+#### [On the way for detecting and quantifying elusive species in the sea: The *Octopus vulgaris* case study](https://doi.org/10.1016/j.fishres.2017.02.023)
+
+Mauvisseau, Q., [Parrondo, M.]{.my-name}, Fernández, M. P., García, L.,
+Martínez, J. L., García-Vázquez, E., & Borrell, Y. J.
+
+*Fisheries Research*, 191, 41–48.
+
+## Book chapters
+
+### 2023
+
+#### [Herramientas genéticas y planes de gestión sostenible en las pesquerías de invertebrados en Asturias](https://hdl.handle.net/10651/71361)
+
+[Parrondo Lombardía, M.]{.my-name}, Coya Testón, R., Miralles López, L.,
+Ibabe Arrieta, A., Fueyo, Á., Pérez Méndez, M. T., & Borrell Pichs, Y. J.
+
+In T. E. Díaz González & Y. J. Borrell Pichs (Coords.),
+*La sostenibilidad de las pesquerías en el Principado de Asturias:
+ciencia, gestión y participación en una agenda regional hacia el 2030*
+(pp. 77–109). Real Instituto de Estudios Asturianos.
+
+### 2022
+
+#### [Sustainable Management Plans in Fisheries and Genetic Tools: An Overview of the Challenge in Invertebrates’ Fisheries at the Central Area of the Southern Bay of Biscay, Spain](https://doi.org/10.5772/intechopen.105353)
+
+[Parrondo Lombardía, M.]{.my-name}, García-Flórez, L.,
+Dopico Rodríguez, E., & Borrell Pichs, Y. J.
+
+In N. U. Saher (Ed.), *Pertinent and Traditional Approaches Towards Fishery*
+(Chapter 5). IntechOpen.
+
+:::
+
+---
+
+[View my ORCID profile](https://orcid.org/0000-0003-0715-4400)

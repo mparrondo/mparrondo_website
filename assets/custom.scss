@@ -195,3 +195,44 @@ div.quarto-about-trestles .about-links a.about-link .about-link-text,
 div.quarto-about-trestles .about-links a.about-link i {
   color: inherit !important;
 }
+
+// Publicaciones: nombre propio
+.publications-list .my-name {
+  color: $wine;
+  font-weight: 700;
+}
+
+// Años
+.publications-list h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: $wine;
+  font-size: 1.25rem;
+}
+
+// Títulos de las publicaciones
+.publications-list h4 {
+  margin-top: 1.75rem;
+  margin-bottom: 0.6rem;
+  font-size: 1.08rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+// Enlaces de los títulos
+.publications-list h4 a {
+  color: $burgundy;
+  text-decoration: none;
+}
+
+.publications-list h4 a:hover,
+.publications-list h4 a:focus-visible {
+  color: $wine;
+  text-decoration: underline;
+}
+
+// Autores y datos bibliográficos
+.publications-list p {
+  margin-bottom: 0.6rem;
+  line-height: 1.65;
+}
