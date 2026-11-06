@@ -1,175 +1,107 @@
 ---
-title: "Silvia Canelón"
-subtitle: Data Scientist & Journalist
-image: sidebar/avatar.png
-image-alt: "Smiling woman with a tan complexion, dark eyes, and dark long wavy hair styled to one side"
-about:
-  template: trestles
-  image-width: 14em
-  image-shape: rounded
-  id: hero-heading
-  links:
-    - text: "{{< fa universal-access >}}"
-      aria-label: "Accessibility statement"
-      href: accessibility.qmd
-    - text: "{{< fa brands bluesky >}}"
-      aria-label: "Bluesky"
-      href: https://bsky.app/profile/silviacanelon.com
-    - icon: linkedin
-      aria-label: "LinkedIn"
-      href: https://linkedin.com/in/spcanelon
-    - icon: github
-      aria-label: GitHub
-      href: https://github.com/spcanelon
-    # - icon: mastodon
-    #   href: https://hachyderm.io/@spcanelon
-    - text: "{{< ai orcid >}}"
-      href: https://orcid.org/0000-0003-1709-1394
-    - text: "{{< ai google-scholar >}}"
-      aria-label: "Google Scholar"
-      href: https://scholar.google.com/citations?user=GAzkvpcAAAAJ&hl=en&oi=ao
-    - text: "{{< fa envelope >}}"
-      aria-label: Newsletter
-      href: https://buttondown.com/spcanelon
-listing:
-- id: project
-  contents: 
-    - "../project/*/index.qmd"
-    - "../project/*/index.markdown"
-    - "../project/external-items/metadata.yml"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, subtitle, image]
-  max-items: 1
-  image-height: "200"
-- id: talk
-  contents: 
-    - "../talk/*/index.qmd"
-    - "../talk/*/index.markdown"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, subtitle, image]
-  max-items: 1
-  image-height: "200"
-- id: blog
-  contents: 
-    - "../blog/*/index.qmd"
-    - "../blog/*/index.markdown"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, subtitle, image]
-  max-items: 1
-  image-height: "200"
-- id: publication
-  contents: 
-    - "../publication/*/index.qmd"
-    - "../publication/*/index.markdown"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, image]
-  max-items: 1
-  image-height: "200"
-  image-placeholder: ../publication/featured.jpg
-format: 
-  html: 
-    page-layout: full
-
-header-includes: >
-  <link rel="stylesheet" href="../assets/about.css">
-resources:
-  - ../assets/about.css
+title: "About"
 ---
 
-::: {#hero-heading}
-<div class="h1">Hey, I'm happy you're here</div>
+## Research background
 
-Thanks for stopping by!
+I am a marine biologist developing molecular and genomic approaches
+to support marine conservation and sustainable fisheries management.
 
-I work as a data scientist at the [Urban Health Lab](https://www.urbanhealthlab.org/) at the University of Pennsylvania. My research interests include applications of biomedical and spatial data science in the public and population health fields. 
+A common thread throughout my research has been the need to build
+biological knowledge for species and ecosystems that remain poorly
+characterized. I have focused particularly on commercially and
+ecologically important marine invertebrates, for which genetic
+baselines, curated molecular reference libraries, and genome-wide
+resources are often limited.
 
-My current projects use electronic health record (EHR) and geospatial data to explore how the neighborhood environment and access to urban nature can impact the health of individuals in Philadelphia. Learn more about my research interests in [publications](/publication).
+During my PhD, I developed population-genetic baselines for exploited
+marine invertebrates and investigated how genetic information could
+support sustainable fisheries management.
 
-Get in touch by [sending me a note](/contact.qmd)! {{< fa feather-pointed >}}
+During my first postdoctoral fellowship, I expanded this perspective
+from individual species to vulnerable marine ecosystems. My work
+focused on developing integrative taxonomic and DNA-barcoding resources
+to support future environmental DNA (eDNA) monitoring.
 
+## Current position
+
+In April 2025, I joined Daniel Ruzzante’s laboratory at Dalhousie
+University in Nova Scotia, Canada, as a Postdoctoral Fellow working
+on the Northern Cod Acoustic Tracking (NCAT) project.
+
+Within NCAT, I integrate low-coverage whole-genome sequencing with
+acoustic telemetry to investigate relationships between genomic
+variation and individual movement patterns in Atlantic cod.
+
+This position builds on my experience with microsatellite and
+mitochondrial datasets while extending my expertise into genome-wide
+analyses, the computational management of large sequencing datasets,
+and the analysis of animal movement and spatial connectivity.
+
+## Looking ahead
+
+My move to Atlantic cod was a deliberate step towards learning in a
+system with established genomic resources and acoustic-telemetry
+infrastructure.
+
+My long-term aim is to adapt and transfer these approaches to
+data-poor marine invertebrates, connecting genomic and ecological
+information to address conservation and fisheries-management needs.
+
+## Places connected to my research
+
+My research has taken me to different coastal settings across Spain,
+France, and Canada. These photographs show some of the places connected
+to that journey.
+
+:::: {.places-grid}
+
+::: {.place-card}
+![Rock formations off Gueirúa Beach.](../assets/images/gueirua.jpg){.place-photo}
+
+### Gueirúa
+Cudillero, Asturias, Spain.
+
+::: {.photo-credit}
+Photo by [Inés Álvarez Fdez](https://unsplash.com/@powwpic)
+on [Unsplash](https://unsplash.com/photos/fBPEXawTQ7c).
+:::
 :::
 
-## About me
+::: {.place-card}
+![Boats in Roscoff harbour.](../assets/images/roscoff.jpg){.place-photo}
 
-::: {.grid}
+### Roscoff
+Brittany, France.
 
-::: {.g-col-6 #about-me-1}
-
-**Biomedical engineer turned informaticist, curious about all intersections of data and society.**
-
-I enjoy using [R](https://www.r-project.org/about.html) to optimize my data science workflow and have noticed it making guest appearances elsewhere in my life. I'm certified as an [RStudio Tidyverse Instructor](https://education.rstudio.com/trainers/people/canelon+silvia/) and am passionate about R education and data literacy as ways to build power in communities. Keep up with my R tinkering in my [blog](/blog) and presentations in [talks](/talk).
-
-<ul class="fa-ul">
-   <li><span class="fa-li"><i class="fa-solid fa-certificate"></i></span><a href="https://education.rstudio.com/trainers/people/canelon+silvia/">Tidyverse Instructor Certification</a> ∙ RStudio, PBC ∙ 2020</li>
-</ul>
-
+::: {.photo-credit}
+Photo by [Isaline](https://unsplash.com/@pouety)
+on [Unsplash](https://unsplash.com/photos/rGceW-U7Vr0).
+:::
 :::
 
-::: {.g-col-6 #about-me-2}
+::: {.place-card}
+![Rocky coastline of the Cíes Islands.](../assets/images/cies.jpg){.place-photo}
 
-Prior to joining the Urban Health Lab, I developed novel data mining methods to extract meaningful information from the EHR and study health outcomes and disparities in pregnant populations. I'm particularly interested in research that combines biomedical data science with open data sources in ways that prioritize health equity in communities.
+### Cíes
+Galicia, Spain.
 
-<ul class="fa-ul">
-   <li><span class="fa-li"><i class="fa-solid fa-certificate"></i></span><a href="https://www.med.upenn.edu/mbmi/certificate.html">Certificate in Biomedical Informatics</a> ∙ University of Pennsylvania ∙ 2019</li>
-   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Ph.D. in Biomedical Engineering ∙ Purdue University ∙ 2018</li>
-   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>B.S. in Biomedical Engineering ∙ University of Minnesota ∙ 2012</li>
-</ul>
-
+::: {.photo-credit}
+Photo by [A. C.](https://unsplash.com/@3tnik)
+on [Unsplash](https://unsplash.com/photos/Cm6_D-A8JO8).
+:::
 :::
 
-:::
-<!-- end grid -->
+::: {.place-card}
+![Lighthouse on Georges Island.](../assets/images/georges-island.jpg){.place-photo}
 
-## Lately ...
+### Georges Island
+Halifax, Nova Scotia, Canada.
 
-:::: {.grid}
-
-::: {.g-col-3}
-#### Projects
-::: {#project}
+::: {.photo-credit}
+Photo by [tonny huang](https://unsplash.com/@tonny_huang)
+on [Unsplash](https://unsplash.com/photos/3FitnqauSS8).
 :::
-[See all &rarr;](../project){.about-links .subtitle}
-:::
-
-::: {.g-col-3}
-#### Talks
-::: {#talk}
-:::
-[See all &rarr;](../talk){.about-links .subtitle}
-:::
-
-::: {.g-col-3}
-#### Blog
-::: {#blog}
-:::
-[See all &rarr;](../blog){.about-links .subtitle}
-:::
-
-::: {.g-col-3}
-#### Publications
-::: {#publication}
-:::
-[See all &rarr;](../publication){.about-links .subtitle}
 :::
 
 ::::

@@ -1,0 +1,49 @@
+---
+title: "Research"
+toc: true
+---
+
+My research connects molecular identification, population genetics,
+genomics, and movement ecology to address questions relevant to marine
+conservation and fisheries management.
+
+## Population genetics for fisheries management
+
+Reliable genetic baselines are essential for investigating population
+structure and connectivity in exploited marine species.
+
+During my PhD, I developed population-genetic baselines for marine
+invertebrates and explored how this information could contribute to
+sustainable fisheries management.
+
+## Molecular reference resources for biodiversity monitoring
+
+Molecular monitoring depends on reliable links between DNA sequences
+and taxonomic identities.
+
+During my first postdoctoral fellowship, I worked on integrative
+taxonomic and DNA-barcoding resources for vulnerable marine ecosystems,
+helping establish the reference information needed for future
+environmental DNA (eDNA) monitoring.
+
+## Linking genomic variation and movement in Atlantic cod
+
+At Dalhousie University, I work on the Northern Cod Acoustic Tracking
+(NCAT) project in Daniel Ruzzante’s laboratory.
+
+I integrate low-coverage whole-genome sequencing (lcWGS) with acoustic
+telemetry to investigate relationships between genomic variation and
+individual movement patterns in Atlantic cod.
+
+This work brings together population-genomic analyses, the management
+of large sequencing datasets, and the interpretation of movement and
+spatial connectivity data.
+
+## A long-term perspective
+
+Across these research areas, my goal is to strengthen the biological
+evidence available for marine species with limited genomic resources.
+
+By developing expertise in a comparatively data-rich system, I aim
+to identify approaches that can ultimately be adapted to marine
+invertebrates and other data-poor systems.

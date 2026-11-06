@@ -1,0 +1,188 @@
+/*-- scss:defaults --*/
+
+// Paleta
+$paper: #FAFBF8;
+$mist: #DCE0D9;
+$wine: #31081F;
+$burgundy: #6B0F1A;
+$graphite: #595959;
+$sage: #808F85;
+
+// Colores generales
+$body-bg: $paper;
+$body-color: $graphite;
+$headings-color: $wine;
+$primary: $burgundy;
+
+$link-color: $burgundy;
+$link-hover-color: $wine;
+$link-decoration: underline;
+
+// Navegación y pie
+$navbar-bg: $paper;
+$navbar-fg: $wine;
+$navbar-hl: $burgundy;
+
+$footer-bg: $mist;
+$footer-fg: $wine;
+
+// Tipografía
+$font-family-sans-serif: system-ui, -apple-system, BlinkMacSystemFont,
+  "Segoe UI", sans-serif;
+$font-size-base: 1.05rem;
+$line-height-base: 1.7;
+
+// Componentes
+$border-color: $mist;
+$code-bg: $mist;
+$code-color: $wine;
+
+
+/*-- scss:rules --*/
+
+// Barra superior
+.navbar {
+  border-bottom: 1px solid $mist;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+.navbar .nav-link {
+  font-size: 0.95rem;
+}
+
+.navbar .nav-link.active {
+  text-decoration: underline;
+  text-underline-offset: 0.35em;
+}
+
+// Títulos
+h1,
+h2,
+h3,
+h4 {
+  color: $wine;
+}
+
+h1 {
+  font-weight: 650;
+  letter-spacing: -0.025em;
+}
+
+h2 {
+  margin-top: 2rem;
+}
+
+.subtitle {
+  color: $graphite;
+}
+
+// Enlaces
+a {
+  text-underline-offset: 0.18em;
+}
+
+// Enlaces de la presentación de Home
+div.quarto-about-jolla .about-link,
+div.quarto-about-trestles .about-link {
+  color: $burgundy;
+  border-color: $burgundy;
+  border-radius: 0.35rem;
+}
+
+div.quarto-about-jolla .about-link:hover,
+div.quarto-about-trestles .about-link:hover {
+  color: $paper;
+  background-color: $burgundy;
+}
+
+// Foco visible al navegar con teclado
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid $burgundy;
+  outline-offset: 4px;
+}
+
+// Selección de texto
+::selection {
+  color: $wine;
+  background: $mist;
+}
+
+// Pie de página
+.nav-footer {
+  border-top: 1px solid $sage;
+}
+
+.nav-footer a {
+  color: $wine;
+}
+
+// Fotografías que añadamos con esta clase
+.photo-secondary {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 1.5rem auto;
+  border-radius: 0.5rem;
+}
+
+// Galería de lugares
+.places-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  margin: 1.5rem 0;
+}
+
+.place-card {
+  min-width: 0;
+}
+
+.place-card .quarto-figure {
+  margin-bottom: 0;
+}
+
+.place-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.place-card h3 {
+  margin-top: 0.8rem;
+  margin-bottom: 0.2rem;
+  font-size: 1.15rem;
+}
+
+.place-card p {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 700px) {
+  .places-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+.photo-credit {
+  margin-top: 0.5rem;
+  color: $graphite;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.photo-credit p {
+  margin-bottom: 0;
+}
+
+.photo-credit a {
+  color: $burgundy;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}

@@ -1,23 +1,32 @@
 ---
-title: "Marina Parrondo"
-subtitle: "Marine biology · Population genomics · Movement ecology"
+title: "Marina Parrondo Lombardía"
+subtitle: "Postdoctoral Fellow at Dalhousie University"
+image: assets/images/marina-parrondo.jpg
+image-alt: "Portrait of Marina Parrondo Lombardía"
+page-layout: full
+
 about:
-  template: jolla
+  template: trestles
+  image-width: 24em
+  image-shape: round
   links:
+    - text: ORCID
+      href: https://orcid.org/0000-0003-0715-4400
     - icon: github
       text: GitHub
       href: https://github.com/mparrondo
 ---
 
-I am a marine biologist working at the intersection of population
-genomics, bioinformatics, and animal movement ecology.
+I develop and apply molecular and genomic tools to address marine
+conservation and fisheries-management challenges, particularly in
+species for which the biological information needed for effective
+management remains limited.
 
-My research combines genomic and acoustic telemetry data to investigate
-marine populations and inform conservation and fisheries management.
+My research spans population genetics, molecular identification, and
+biodiversity monitoring in marine invertebrates. At Dalhousie University,
+I am extending this work into population genomics and movement ecology,
+integrating low-coverage whole-genome sequencing with acoustic telemetry
+in Atlantic cod.
 
-## Research interests
-
-- Population and conservation genomics
-- Acoustic telemetry and animal movement
-- Molecular identification and DNA barcoding
-- Reproducible bioinformatics
+[About me](about/index.qmd) ·
+[Explore my research](research/index.qmd)
